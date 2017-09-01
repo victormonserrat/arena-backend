@@ -1,0 +1,10 @@
+AppBundle\Entity\Activity:
+  activity{1..25}:
+    title: <sentence()>
+    startsAt: <dateTimeBetween($startDate = "-1 month", $endDate = "+1 year")>
+    duration: <numberBetween($min = 30, $max = 300)>
+    location: <city()>
+    description: <paragraph()>
+    seats: <numberBetween($min = 1, $max = 50)>
+    owner: '@user<numberBetween($min = 1, $max = 50)>'
+    sport: '@sport<numberBetween($min = 1, $max = 10)>'

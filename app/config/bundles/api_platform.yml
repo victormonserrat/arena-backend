@@ -1,0 +1,5 @@
+api_platform:
+    title: 'Arena REST API'
+    version: '0.1.0'
+    enable_fos_user: true
+    enable_nelmio_api_doc: true

@@ -1,0 +1,4 @@
+AppBundle\Entity\Sport:
+  sport{1..10}:
+    name (unique): <sport()>
+    description: <paragraph()>

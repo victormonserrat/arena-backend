@@ -1,0 +1,104 @@
+AppBundle\Entity\Activity:
+  ivan-baloncesto:
+    title: 'Un poco de basket antes del viaje'
+    startsAt: <(new DateTime("2017-09-16 21:00:00"))>
+    duration: 40
+    location: 'Rabanales, Córdoba'
+    description: 'Partido de baloncesto antes de ir a Estados Unidos de viaje de fin de carrera. Haremos dos partes de 15 minutos y un descanso de 10. Hay que llevar una camiseta oscura y otra clara'
+    seats: 5
+    owner: '@ivan'
+    sport: '@baloncesto'
+  ruben-running:
+    title: 'Carrera solidaria'
+    startsAt: <(new DateTime("2017-12-24 10:00:00"))>
+    duration: 90
+    location: 'Córdoba'
+    description: 'Ruta por el casco antiguo de Córdoba. Se pedirán 2€ por participación con fines sociales'
+    owner: '@ruben'
+    sport: '@running'
+  omar-padel:
+    title: 'Juego, set y partido'
+    startsAt: <(new DateTime("2017-09-20 20:30:00"))>
+    duration: 60
+    location: 'Club Figueroa, Córdoba'
+    description: 'Somos una pareja que acaba de llegar a la ciudad, queremos jugar a pádel por parejas y conocer gente nueva'
+    seats: 2
+    owner: '@omar'
+    sport: '@padel'
+  elena-baloncesto:
+    title: 'Partido benéfico'
+    startsAt: <(new DateTime("2017-09-25 20:30:00"))>
+    duration: 60
+    location: 'Colegio Maristas, Córdoba'
+    description: 'Partido en favor del cáncer. Se pedirá un donativo de 1€ a los participantes'
+    owner: '@elena'
+    sport: '@baloncesto'
+  jose-ciclismo:
+    title: 'Bicis, montaña y birras'
+    startsAt: <(new DateTime("2017-10-5 9:00:00"))>
+    duration: 180
+    location: 'Sierra de Córdoba'
+    description: 'Me gustaría formar un grupo para realizar una ruta montañera en bici y tomar unas cervezas al acabar'
+    owner: '@jose'
+    sport: '@ciclismo'
+  ruben-futbol:
+    title: 'II Memorial Antonio Ruiz'
+    startsAt: <(new DateTime("2017-10-12 22:00:00"))>
+    duration: 90
+    location: 'Colegio La Salle, Córdoba'
+    description: 'Triangular en memoria de Antonio Ruiz. Jugaremos de blanco, azul y rojo (cada equipo de un color) 3 partidos de media hora cada uno'
+    seats: 14
+    owner: '@ruben'
+    sport: '@futbol'
+  victor-tenis:
+    title: 'Tarde de raquetas'
+    startsAt: <(new DateTime("2017-11-26 19:30:00"))>
+    duration: 120
+    location: 'Club Figueroa, Córdoba'
+    description: 'Partido de tenis (dobles) nivel principiante. Iremos cambiando de pareja cada set y luego podemos cenar algo en el bar del club'
+    seats: 3
+    owner: '@victor'
+    sport: '@tenis'
+  paco-baloncesto:
+    title: 'Triples y tiros libres'
+    startsAt: <(new DateTime("2017-11-28 12:30:00"))>
+    duration: 60
+    location: 'IES López-Neyra, Córdoba'
+    description: 'Busco gente para practicar un poco (nivel medio). Si somos muchos podemos organizar un partido'
+    owner: '@paco'
+    sport: '@baloncesto'
+  ruano-natacion:
+    title: 'Aguas abiertas'
+    startsAt: <(new DateTime("2017-11-28 12:30:00"))>
+    duration: 45
+    location: 'Torremolinos, Málaga'
+    description: 'Tengo un barquito en Torremolinos que podemos usar para alejarnos de la orilla y nadar un rato en aguas abiertas'
+    seats: 4
+    owner: '@ruano'
+    sport: '@natacion'
+  jesus-futbol:
+    title: 'Solteros contra casados'
+    startsAt: <(new DateTime("2017-11-28 12:30:00"))>
+    duration: 90
+    location: 'Colegio Virgen del Carmen, Córdoba'
+    description: 'El típico partido sin nivel deportivo, para pasar un buen rato'
+    seats: 12
+    owner: '@jesus'
+    sport: '@futbol'
+  victor-balonmano:
+    title: 'Balonmano en Córdoba'
+    startsAt: <(new DateTime("2017-12-2 10:15:00"))>
+    duration: 60
+    location: 'IDU Menéndez Pidal, Córdoba'
+    description: 'Partido amistoso de balonmano nivel medio-alto contra el equipo universitario'
+    seats: 6
+    owner: '@victor'
+    sport: '@balonmano'
+  laura-running:
+    title: 'Quema grasas'
+    startsAt: <(new DateTime("2017-11-28 08:30:00"))>
+    duration: 60
+    location: 'Córdoba'
+    description: 'Ruta mañanera para quemar calorías y excesos'
+    owner: '@laura'
+    sport: '@running'

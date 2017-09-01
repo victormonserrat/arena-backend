@@ -1,0 +1,35 @@
+default:
+    formatters:
+        pretty:
+            verbose: true
+            paths: false
+            snippets: false
+            output_styles:
+                comment: [ 'default' ]
+    extensions:
+        Behat\Symfony2Extension: ~
+        Behat\MinkExtension:
+            base_url: "http://localhost:8000/"
+            sessions:
+                default:
+                    symfony2: ~
+        FriendsOfBehat\PerformanceExtension: ~
+        Sanpi\Behatch\Extension: ~
+
+    suites:
+        sports:
+            contexts:
+                - AppBundle\Behat\Context\Hook\DoctrineORMContext
+                - AppBundle\Behat\Context\Hook\SharedStorageContext
+                - AppBundle\Behat\Context\Hook\RestContext
+                - AppBundle\Behat\Context\Hook\JsonContext
+
+                - AppBundle\Behat\Context\Transform\UserContext
+                - AppBundle\Behat\Context\Domain\UserContext
+
+                - AppBundle\Behat\Context\Transform\SportContext
+                - AppBundle\Behat\Context\Domain\SportContext
+
+                - Behat\MinkExtension\Context\MinkContext
+            filters:
+                tags: "@sports"

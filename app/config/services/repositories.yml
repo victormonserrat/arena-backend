@@ -1,0 +1,36 @@
+services:
+    arena.repository.user:
+        class: AppBundle\Repository\UserRepository
+        factory: ['@doctrine.orm.default_entity_manager', 'getRepository']
+        arguments:
+            - 'AppBundle\Entity\User'
+
+    arena.repository.sport:
+        class: AppBundle\Repository\SportRepository
+        factory: ['@doctrine.orm.default_entity_manager', 'getRepository']
+        arguments:
+            - 'AppBundle\Entity\Sport'
+
+    arena.repository.activity:
+        class: AppBundle\Repository\ActivityRepository
+        factory: ['@doctrine.orm.default_entity_manager', 'getRepository']
+        arguments:
+            - 'AppBundle\Entity\Activity'
+
+    arena.repository.registration:
+        class: AppBundle\Repository\RegistrationRepository
+        factory: ['@doctrine.orm.default_entity_manager', 'getRepository']
+        arguments:
+            - 'AppBundle\Entity\Registration'
+
+    arena.repository.notification:
+        class: AppBundle\Repository\NotificationRepository
+        factory: ['@doctrine.orm.default_entity_manager', 'getRepository']
+        arguments:
+            - 'AppBundle\Entity\Notification'
+
+    arena.repository.communication:
+        class: AppBundle\Repository\CommunicationRepository
+        factory: ['@doctrine.orm.default_entity_manager', 'getRepository']
+        arguments:
+            - 'AppBundle\Entity\Communication'

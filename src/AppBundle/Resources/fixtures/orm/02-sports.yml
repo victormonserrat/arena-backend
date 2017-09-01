@@ -1,0 +1,25 @@
+AppBundle\Entity\Sport:
+  futbol:
+    name: 'Fútbol'
+    description: <paragraph()>
+  baloncesto:
+    name: 'Baloncesto'
+    description: <paragraph()>
+  tenis:
+    name: 'Tenis'
+    description: <paragraph()>
+  padel:
+    name: 'Pádel'
+    description: <paragraph()>
+  ciclismo:
+    name: 'Ciclismo'
+    description: <paragraph()>
+  balonmano:
+    name: 'Balonmano'
+    description: <paragraph()>
+  natacion:
+    name: 'Natación'
+    description: <paragraph()>
+  running:
+    name: 'Running'
+    description: <paragraph()>

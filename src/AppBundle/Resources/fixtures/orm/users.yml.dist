@@ -1,0 +1,15 @@
+AppBundle\Entity\User:
+  admin:
+    username (unique): 'admin'
+    email (unique): 'admin@admin.com'
+    plainPassword: 'admin'
+    enabled: true
+    roles: ['ROLE_ADMIN']
+  user{1..50}:
+    username (unique): <userName()>
+    email (unique): <email()>
+    plainPassword: <password()>
+    avatar: <avatar()>
+    fullName: '<firstName()> <lastName()>'
+    enabled: true
+    roles: ['ROLE_USER']

@@ -1,0 +1,30 @@
+services:
+    arena.dispatcher.user:
+        class: AppBundle\EventDispatcher\UserEventDispatcher
+        arguments:
+            - '@event_dispatcher'
+
+    arena.dispatcher.sport:
+        class: AppBundle\EventDispatcher\SportEventDispatcher
+        arguments:
+            - '@event_dispatcher'
+
+    arena.dispatcher.activity:
+        class: AppBundle\EventDispatcher\ActivityEventDispatcher
+        arguments:
+            - '@event_dispatcher'
+
+    arena.dispatcher.registration:
+        class: AppBundle\EventDispatcher\RegistrationEventDispatcher
+        arguments:
+            - '@event_dispatcher'
+
+    arena.dispatcher.notification:
+        class: AppBundle\EventDispatcher\NotificationEventDispatcher
+        arguments:
+            - '@event_dispatcher'
+
+    arena.dispatcher.communication:
+        class: AppBundle\EventDispatcher\CommunicationEventDispatcher
+        arguments:
+            - '@event_dispatcher'

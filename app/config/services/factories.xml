@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+
+<!--
+  ~ This file is part of the 'arena' project'.
+  ~
+  ~ (c) Víctor Monserrat Villatoro <victor1995mv@gmail.com>
+  ~
+  ~ For the full copyright and license information, please view the LICENSE
+  ~ file that was distributed with this source code.
+  -->
+
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+    <services>
+        <service id="arena.factory.user" class="AppBundle\Factory\UserFactory">
+            <argument type="service">
+                <service class="AppBundle\Factory\Factory">
+                    <argument>AppBundle\Entity\User</argument>
+                </service>
+            </argument>
+        </service>
+
+        <service id="arena.factory.sport" class="AppBundle\Factory\SportFactory">
+            <argument type="service">
+                <service class="AppBundle\Factory\Factory">
+                    <argument>AppBundle\Entity\Sport</argument>
+                </service>
+            </argument>
+        </service>
+
+        <service id="arena.factory.activity" class="AppBundle\Factory\ActivityFactory">
+            <argument type="service">
+                <service class="AppBundle\Factory\Factory">
+                    <argument>AppBundle\Entity\Activity</argument>
+                </service>
+            </argument>
+        </service>
+
+        <service id="arena.factory.registration" class="AppBundle\Factory\RegistrationFactory">
+            <argument type="service">
+                <service class="AppBundle\Factory\Factory">
+                    <argument>AppBundle\Entity\Registration</argument>
+                </service>
+            </argument>
+        </service>
+
+        <service id="arena.factory.notification" class="AppBundle\Factory\NotificationFactory">
+            <argument type="service">
+                <service class="AppBundle\Factory\Factory">
+                    <argument>AppBundle\Entity\Notification</argument>
+                </service>
+            </argument>
+        </service>
+
+        <service id="arena.factory.communication" class="AppBundle\Factory\CommunicationFactory">
+            <argument type="service">
+                <service class="AppBundle\Factory\Factory">
+                    <argument>AppBundle\Entity\Communication</argument>
+                </service>
+            </argument>
+        </service>
+    </services>
+</container>

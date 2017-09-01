@@ -1,0 +1,10 @@
+services:
+  arena.alice_provider.sport:
+      class: AppBundle\Resources\fixtures\providers\SportsProvider
+      tags:
+          - { name: knp_rad_fixtures_load.provider }
+
+  arena.alice_provider.avatar:
+      class: AppBundle\Resources\fixtures\providers\AvatarsProvider
+      tags:
+          - { name: knp_rad_fixtures_load.provider }

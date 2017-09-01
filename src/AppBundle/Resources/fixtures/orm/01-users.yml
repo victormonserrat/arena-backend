@@ -1,0 +1,87 @@
+AppBundle\Entity\User:
+  admin:
+    username: 'admin'
+    email: 'admin@admin.com'
+    plainPassword: 'admin'
+    enabled: true
+    roles: ['ROLE_ADMIN']
+  victor:
+    username: 'victor1995mv@gmail.com'
+    email: 'victor1995mv@gmail.com'
+    plainPassword: 'victor1995mv@gmail.com'
+    avatar: 'https://lh3.googleusercontent.com/-5kBMaB0vUYE/AAAAAAAAAAI/AAAAAAAAEcM/hjLcRlZTkrI/s120-p-rw-no/photo.jpg'
+    fullName: 'Víctor Monserrat Villatoro'
+    enabled: true
+    roles: ['ROLE_USER']
+  ivan:
+    username: 'ivanportillo@gmaill.com'
+    email: 'ivanportillo@gmaill.com'
+    plainPassword: 'ivanportillo@gmaill.com'
+    avatar: 'https://lh3.googleusercontent.com/-GE4t-sHikbo/AAAAAAAAAAI/AAAAAAAAALY/M2l4m7ATYVA/photo.jpg?sz=50'
+    fullName: 'Iván Portillo Leal'
+    enabled: true
+    roles: ['ROLE_USER']
+  omar:
+    username: 'omarsotillo@gmaill.com'
+    email: 'omarsotillo@gmaill.com'
+    plainPassword: 'omarsotillo@gmaill.com'
+    avatar: 'https://lh3.googleusercontent.com/-Zj1RjtOS2K0/AAAAAAAAAAI/AAAAAAAAAJ0/pXQSTgXK8g4/photo.jpg?sz=50'
+    fullName: 'Omar Sotillo Franco'
+    enabled: true
+    roles: ['ROLE_USER']
+  jose:
+    username: 'joseperezparras@gmaill.com'
+    email: 'joseperezparras@gmaill.com'
+    plainPassword: 'joseperezparras@gmaill.com'
+    avatar: 'https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-1/p320x320/17202783_1823267857699379_6902127682070991654_n.jpg?oh=f7a84bcef151d608157bf23f686246e3&oe=5A2A1B04'
+    fullName: 'José Pérez-Parras Toledano'
+    enabled: true
+    roles: ['ROLE_USER']
+  ruben:
+    username: 'rubenmedina@gmaill.com'
+    email: 'rubenmedina@gmaill.com'
+    plainPassword: 'rubenmedina@gmaill.com'
+    avatar: 'https://lh3.googleusercontent.com/-pqW5TrVKUqs/AAAAAAAAAAI/AAAAAAAAA5M/uFJ5Er6_Uj0/photo.jpg?sz=50'
+    fullName: 'Rubén Medina Zamorano'
+    enabled: true
+    roles: ['ROLE_USER']
+  paco:
+    username: 'franciscorodriguez@gmaill.com'
+    email: 'franciscorodriguez@gmaill.com'
+    plainPassword: 'franciscorodriguez@gmaill.com'
+    avatar: 'https://lh3.googleusercontent.com/-9QHDkGB7vFI/AAAAAAAAAAI/AAAAAAAAAB4/zW7cmGtkhIQ/photo.jpg?sz=50'
+    fullName: 'Francisco José Rodríguez Ramírez'
+    enabled: true
+    roles: ['ROLE_USER']
+  ruano:
+    username: 'josemanuelruano@gmaill.com'
+    email: 'josemanuelruano@gmaill.com'
+    plainPassword: 'josemanuelruano@gmaill.com'
+    avatar: 'https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-1/p320x320/15727370_1327548200643245_3196322069988655364_n.jpg?oh=ce67f05fb99ed6b9638a860543ea58cc&oe=5A275261'
+    fullName: 'José Manuel Ruano Ruiz'
+    enabled: true
+    roles: ['ROLE_USER']
+  jesus:
+    username: 'jesusrojas@gmaill.com'
+    email: 'jesusrojas@gmaill.com'
+    plainPassword: 'jesusrojas@gmaill.com'
+    avatar: 'https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-1/p320x320/13260032_1387799791235389_971639999342021095_n.jpg?oh=82035319d57edfdce0f8d8e800a8f7a9&oe=5A2F89AB'
+    fullName: 'Jesús Rojas Ramos'
+    enabled: true
+    roles: ['ROLE_USER']
+  laura:
+    username: 'lauragonzalez@gmaill.com'
+    email: 'lauragonzalez@gmaill.com'
+    plainPassword: 'lauragonzalez@gmaill.com'
+    avatar: 'https://lh3.googleusercontent.com/-R_1fT5A6V6I/AAAAAAAAAAI/AAAAAAAARnM/XmmSsF9_goA/photo.jpg?sz=50'
+    fullName: 'Laura González Moreno-Vaquerizo'
+    enabled: true
+    roles: ['ROLE_USER']
+  elena:
+    username: 'elenadiaz@gmaill.com'
+    email: 'elenadiaz@gmaill.com'
+    plainPassword: 'elenadiaz@gmaill.com'
+    avatar: 'https://lh3.googleusercontent.com/-vsfba1aARKM/AAAAAAAAAAI/AAAAAAAAAHI/PJclfhZvAtE/photo.jpg?sz=50'
+    fullName: 'Elena Díaz Crespo'
+    enabled: true
+    roles: ['ROLE_USER']

@@ -1,0 +1,7 @@
+services:
+    arena.voter.activity:
+        class:  AppBundle\Security\Voter\ActivityVoter
+        tags:
+            - { name: security.voter }
+        # small performance boost
+        public: false

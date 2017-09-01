@@ -1,0 +1,48 @@
+services:
+    arena.manager.user:
+        class: AppBundle\Services\UserManager
+        arguments:
+            - '@arena.factory.user'
+            - '@arena.repository.user'
+            - '@arena.dispatcher.user'
+            - '@doctrine.orm.default_entity_manager'
+
+    arena.manager.sport:
+        class: AppBundle\Services\SportManager
+        arguments:
+            - '@arena.factory.sport'
+            - '@arena.repository.sport'
+            - '@arena.dispatcher.sport'
+            - '@doctrine.orm.default_entity_manager'
+
+    arena.manager.activity:
+        class: AppBundle\Services\ActivityManager
+        arguments:
+            - '@arena.factory.activity'
+            - '@arena.repository.activity'
+            - '@arena.dispatcher.activity'
+            - '@doctrine.orm.default_entity_manager'
+
+    arena.manager.registration:
+        class: AppBundle\Services\RegistrationManager
+        arguments:
+            - '@arena.factory.registration'
+            - '@arena.repository.registration'
+            - '@arena.dispatcher.registration'
+            - '@doctrine.orm.default_entity_manager'
+
+    arena.manager.notification:
+        class: AppBundle\Services\NotificationManager
+        arguments:
+            - '@arena.factory.notification'
+            - '@arena.repository.notification'
+            - '@arena.dispatcher.notification'
+            - '@doctrine.orm.default_entity_manager'
+
+    arena.manager.communication:
+        class: AppBundle\Services\CommunicationManager
+        arguments:
+            - '@arena.factory.communication'
+            - '@arena.repository.communication'
+            - '@arena.dispatcher.communication'
+            - '@doctrine.orm.default_entity_manager'
